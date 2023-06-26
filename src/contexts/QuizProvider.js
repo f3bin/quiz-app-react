@@ -11,7 +11,7 @@ export const QuizProvider = ({ children }) => {
     btn: false,
     disabled: false,
     selectedOption: null,
-    isCorrect:false
+    isCorrect:null
   });
 
   const Quest = quizData;

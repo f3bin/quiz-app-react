@@ -13,6 +13,7 @@ export const useHandleNext = () => {
                btn: true,
                disabled: false,
                selectedOption: null,
+               isCorrect:null
           }));
      };
 

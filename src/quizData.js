@@ -26,6 +26,7 @@ export const quizData = [
           answer: "Three"
      },
      {
+          id:5,
           question: "5*5 ?",
           options: [25,32,45,67],
           answer: 25
