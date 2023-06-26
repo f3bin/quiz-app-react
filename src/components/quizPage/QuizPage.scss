@@ -8,7 +8,7 @@
 
      .quiz-container {
           width: 50%;
-          height: 50%;
+          height: 70%;
           border: 1px solid black;
 
           .quiz-title {
@@ -27,9 +27,13 @@
                display: flex;
                flex-direction: column;
                align-items: center;
+               justify-content: center;
 
                h3 {
                     color: white;
+                    width: 500px;
+                    height: 60px;
+                    margin-bottom: 25px;  
                }
 
                .next-button {
@@ -51,7 +55,7 @@
                     .options {
                          width: 500px;
                          height: 70px;
-                         font-size: 25px;
+                         font-size: 20Px;
                          border: 0.2px solid;
                          border-radius: 15px;
                          margin: 2px 0px;

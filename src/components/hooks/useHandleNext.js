@@ -10,7 +10,7 @@ export const useHandleNext = () => {
           setState((prevstate) => ({
                ...prevstate,
                index: prevstate.index + 1,
-               btn: true,
+               btn: false,
                disabled: false,
                selectedOption: null,
                isCorrect:null

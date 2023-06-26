@@ -11,7 +11,7 @@ export const useOptionClick = () => {
       selectedOption: option,
       disabled: true,
       btn: true,
-      score: isCorrect ? prevState.score + 1 : prevState.score,
+      score: isCorrect && state.index !== 4 ? prevState.score + 1 : prevState.score,
       isCorrect: isCorrect,
     }));
   };
